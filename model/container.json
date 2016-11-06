@@ -1,0 +1,41 @@
+{
+  "Id": "141ccabfe36e0957c229836708f2886c476b4196847dc05277d02fe3d4f8ed29",
+  "Names": [
+    "/clever_leavitt"
+  ],
+  "Image": "tomcat",
+  "ImageID": "sha256:358dfa2c1630e04f2b0b1382a3fa27278c42ed03bd5265e19aaa3d21c24a5f3a",
+  "Command": "/bin/bash",
+  "Created": 1473707909,
+  "Ports": [
+    {
+      "PrivatePort": 8080,
+      "Type": "tcp"
+    }
+  ],
+  "Labels": {},
+  "State": "running",
+  "Status": "Up 3 days",
+  "HostConfig": {
+    "NetworkMode": "default"
+  },
+  "NetworkSettings": {
+    "Networks": {
+      "bridge": {
+        "IPAMConfig": null,
+        "Links": null,
+        "Aliases": null,
+        "NetworkID": "7d706eb8ee8a843ce2013ba663b82c8de9ed2043415061e624156db6b66dbd90",
+        "EndpointID": "d0fa4e3b2a8d888906057625637ee1fad323155b2155722f6cf72c3b40f889e6",
+        "Gateway": "172.17.0.1",
+        "IPAddress": "172.17.0.2",
+        "IPPrefixLen": 16,
+        "IPv6Gateway": "",
+        "GlobalIPv6Address": "",
+        "GlobalIPv6PrefixLen": 0,
+        "MacAddress": "02:42:ac:11:00:02"
+      }
+    }
+  },
+  "Mounts": []
+}
